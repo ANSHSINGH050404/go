@@ -35,7 +35,7 @@ func main() {
 	// 5. Ping the database to verify connection
 	err = client.Ping(ctx, nil)
 	if err != nil {
-		log.Fatal("Could not connect to MongoDB:", err)
+		log.Fatal("Could not connect to MonghuhuhoDB:", err)
 	}
 
 	fmt.Println("Successfully connected to MongoDB!")
